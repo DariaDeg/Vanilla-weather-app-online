@@ -1,5 +1,11 @@
-body {
-  background-color: lightblue;
+.body {
+  background-color: rgb(255, 233, 253);
+}
+footer {
+  text-align: center;
+}
+.weather-app {
+  width: 600px;
 }
 .description {
   list-style-type: none;
