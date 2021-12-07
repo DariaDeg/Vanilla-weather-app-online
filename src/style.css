@@ -1,3 +1,31 @@
-h1 {
-  color: #5aa9ad;
+.search-form {
+  padding-top: 30px;
+}
+.description {
+  list-style-type: none;
+}
+
+.main-block {
+  width: auto;
+  margin: auto;
+}
+
+.temp {
+  display: block;
+  float: top;
+}
+.temp-number {
+  font-size: 80%;
+}
+.small-font {
+  font-size: 30%;
+}
+
+.btn-primary {
+  background-color: blueviolet !important;
+  border: blueviolet !important;
+}
+.form-control:focus {
+  border-color: blueviolet !important;
+  box-shadow: cadetblue;
 }
