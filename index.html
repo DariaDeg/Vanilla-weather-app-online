@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
+      <div class="weather-app bg-white border border-right-0 rounded shadow-sm">
         <form class="search-form" id="search-form">
           <div class="row justify-content-center">
             <div class="col-5">
@@ -38,7 +38,7 @@
             </div>
           </div>
         </form>
-          <div class="row justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-5">
  <h1 class="city">New York</h1>
  <ul class="description">
@@ -46,11 +46,20 @@
    <li>Humidity: 43%</li>
 <li>Wind: 10 km/h</li>
         </div>
-         <div class="col-3 temp"><span class="temp-number">15</span><span class="small-font">°C</span></div>
-         </div>
-
-
-      <script src="src/index.js"></script>
+         <div class="col-3 d-flex justify-content-center">
+           <h4 class="dino">🦕</h4>
+           <div class="d-flex flex-row"><span class="temp-number">15</span><span class="units">°C</span></div>
+        </div>
+        <div class="fiveday-forecast row flex-row">
+          <div class="col"><div class="WeatherForecastPreview">
+            <div class="forecast-time">Tue</div><canvas width="28" height="28"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">7°</span><span class="forecast-temperature-min">4°</span></div></div></div>
+            <div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Wed</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">6°</span><span class="forecast-temperature-min">4°</span></div></div></div><div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Thu</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">4°</span><span class="forecast-temperature-min">1°</span></div></div></div>
+            <div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Fri</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">9°</span><span class="forecast-temperature-min">4°</span></div></div></div><div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Sat</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">17°</span><span class="forecast-temperature-min">8°</span></div></div></div></div>
+      </div>
+       <footer>Coded by DariaDeg</footer>
     </div>
+   
+</div>
+    <script src="src/index.js"></script>
   </body>
 </html>
