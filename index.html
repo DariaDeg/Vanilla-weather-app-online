@@ -12,6 +12,8 @@
     />
       <link rel="stylesheet" href="src/style.css"/>
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <title>WeatherAppbyDaria</title>
   </head>
   <body class="body">
@@ -43,12 +45,12 @@
         <div class="overview">   
           <div class="row justify-content-center">
             <div class="col-9">
- <h1 class="city">New York</h1>
+ <h1 id="city"></h1>
  <ul>
    <li class="formatted-date">
      Saturday, 11 December 2021
     </li>
-    <li>
+    <li id="descr">
       Clear
      </li>
  </ul>
@@ -60,14 +62,14 @@
            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
           alt="Cloudy"
            class="float-left"
-          /><span class="float-left"><strong>15</strong><span class="units">°C| <a href="#" style="text-decoration: none;">°F</a></span></span>
+          /><span class="float-left" ><strong id="temperature"></strong><span class="units">°C| <a href="#" style="text-decoration: none;">°F</a></span></span>
+
 </div>
 </div>
     <div class="col-3">
  <ul class="description">
-   <li>Precipitation: 5%</li>
-   <li>Humidity: 43%</li>
-   <li>Wind: 10 km/h</li>
+   <li>Humidity: <span id="humidity"></span>%</li>
+   <li>Wind: <span id="wind"></span>km/h</li>
         </div>
          </div>
 </div>

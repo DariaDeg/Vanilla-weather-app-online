@@ -14,11 +14,12 @@ ul {
   padding: 0;
 }
 li {
-list-style-type: none;
+  list-style-type: none;
   padding-left: 0px;
   font-size: 14px;
   line-height: 16px;
   font-weight: 100;
+  text-transform: capitalize;
   color: rgb(114, 114, 114);
 }
 footer {
@@ -45,10 +46,10 @@ footer {
 }
 
 .weather-temperature strong {
-color:rgb(95, 12, 173);
-font-size: 48px;
-font-weight: 400;
-line-height: 1;
+  color: rgb(95, 12, 173);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
 }
 .weather-temperature .units {
   position: relative;
