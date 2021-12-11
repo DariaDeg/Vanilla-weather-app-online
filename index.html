@@ -16,7 +16,8 @@
   </head>
   <body class="body">
     <div class="container">
-      <div class="weather-app bg-white border border-right-0 rounded shadow-sm">
+      <div class="weather-app-wrapper">
+       <div class="weather-app bg-white border rounded shadow-sm">
         <form class="search-form" id="search-form">
           <div class="row justify-content-center">
             <div class="col-6">
@@ -39,9 +40,11 @@
             </div>
           </div>
         </form>
-            <div class="col-6">
+        <div class="overview">   
+          <div class="row justify-content-center">
+            <div class="col-9">
  <h1 class="city">New York</h1>
- <ul class="description">
+ <ul>
    <li class="formatted-date">
      Saturday, 11 December 2021
     </li>
@@ -50,12 +53,15 @@
      </li>
  </ul>
 </div>
-     <div class="row">
+</div>
+     <div class="row justify-content-center">
        <div class="col-6">
+         <div class="clearfix weather-temperature">
            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-           class="weather-logo"
-           alt="Cloudy"
-           />15</span><span class="units">°C|°F</span></span> 
+          alt="Cloudy"
+           class="float-left"
+          /><span class="float-left"><strong>15</strong><span class="units">°C| <a href="#" style="text-decoration: none;">°F</a></span></span>
+</div>
 </div>
     <div class="col-3">
  <ul class="description">
@@ -66,6 +72,9 @@
          </div>
 </div>
 </div>
+</div>
+</div>
+
 <footer>Coded by DariaDeg, open-sourced to <a href="https://github.com/DariaDeg/Vanilla-weather-app-online">GitHub</a></footer>
     <script src="src/index.js"></script>
   </body>
