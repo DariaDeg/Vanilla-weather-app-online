@@ -46,3 +46,7 @@ footer {
 .fiveday-forecast {
   padding: 20px 20px;
 }
+.weather-logo {
+  height: 40px;
+  width: 40px;
+}
