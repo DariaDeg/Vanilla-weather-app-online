@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(255, 233, 253);
+  background-color: rgb(219, 219, 219);
 }
 h1 {
   color: #505050;
@@ -46,7 +46,7 @@ footer {
 }
 
 .weather-temperature strong {
-  color: rgb(95, 12, 173);
+  color: #505050;
   font-size: 48px;
   font-weight: 400;
   line-height: 1;
@@ -57,14 +57,17 @@ footer {
   top: -21px;
 }
 .btn-primary {
-  background-color: blueviolet !important;
-  border: blueviolet !important;
+  background-color: #e96e50 !important;
+  border: #e96e50 !important;
 }
 .form-control:focus {
-  border-color: rgb(95, 12, 173) !important;
-  box-shadow: cadetblue;
+  border-color: #e96e50 !important;
+  box-shadow: rgb(119, 132, 133);
 }
 
 .fiveday-forecast {
   padding: 20px 20px;
+}
+a:link {
+  color: coral;
 }
