@@ -68,6 +68,12 @@ footer {
 .fiveday-forecast {
   padding: 20px 20px;
 }
-a:link {
-  color: coral;
+.weather-temperature .active {
+  color: #505050;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  color: #505050;
+  cursor: default;
 }
