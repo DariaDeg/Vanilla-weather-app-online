@@ -27,11 +27,12 @@ footer {
   font-size: smaller;
 }
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
 }
 .weather-app {
   padding-top: 40px;
+  padding-bottom: 40px;
   margin-top: 30px;
   border: 1px solid rgb(71, 70, 71);
   border-radius: 7px;
@@ -44,7 +45,6 @@ footer {
   width: 48px;
   height: 48px;
 }
-
 .weather-temperature strong {
   color: #505050;
   font-size: 48px;
