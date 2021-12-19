@@ -47,6 +47,9 @@ footer {
   width: 48px;
   height: 48px;
 }
+.float-left {
+  float: left;
+}
 .weather-temperature strong {
   color: #505050;
   font-size: 48px;
